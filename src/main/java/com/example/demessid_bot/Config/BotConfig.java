@@ -19,7 +19,7 @@ public class BotConfig {
     private String botToken;
 
     @Bean
-    public Bot mySuperBot(){
+    public Bot myBot(){
         Bot bot = new Bot();
         bot.setWebHookPath(webHookPath);
         bot.setBotToken(botToken);
